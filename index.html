@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Naveen</div>
+            <ul class="navitems">
+               <li><a href="">home</a></li> 
+               <li><a href="">about</a></li>
+               <li><a href="">contact</a></li>
+               <li><a href="">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols">
+                <span class="topline">hello</span>
+                <h1>I'am<span class="multitext">Biologists</span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="buttons">
+                    <button>CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="col2">
+                <dic class="imgbox">
+                    <img src="imgnav.png" alt="naveen" id="imgnav">
+                </dic>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var te=new Typed(".multitext",{
+            strings:["Biologists","Data scientist"],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500
+        })
+    </script>
+</body>
+</html>
